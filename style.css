@@ -1,0 +1,33 @@
+body {
+    background-color: #105a80;
+    color: white;
+    font-family: "Baskerville", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #396fb1;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 50%;
+}
+
+img {
+    max-width: 90%;
+}
